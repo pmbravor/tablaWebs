@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    background-color: hsl(203, 62%, 16%);
+    color: #ffffff;
+    font-size: 250%;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(281, 28%, 29%);
+    font-size: 130%;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4{
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    font-size: 200%;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman", serif;
+    font-size: 108%;
+}
+
+em {
+    color: hsl(200, 100%, 40%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+}
+
+address {
+    color: #050c48;
+    font-weight: bold;
+    text-align: right;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /** width: 500px; /* Ancho del contenedor */
+    height: 30%; /* Altura del contenedor */
+    background-color: #000000; /* Color de fondo del contenedor */
+  }
+
+  table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+  }
+  td {
+    background-color: #f0f0f0;
+  }
+  th {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+  }
